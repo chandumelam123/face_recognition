@@ -55,13 +55,13 @@ while True:
 			s.starttls()
  
 			# Authentication
-			s.login("rahulchandra.melam@gmail.com", "7095057660cd")
+			s.login("xxxxxxxxxxxxxxxx@gmail.com", "xxxxxxxxxxxxxx")
  
 			# message to be sent
 			message = "face detected"
  
 			# sending the mail
-			s.sendmail("rahulchandra.melam@gmail.com", "16pa1a05a5@vishnu.edu.in", message)
+			s.sendmail("xxxxxxxxxxxxxxxxxx@gmail.com", "xxxxxxxxxxx@vishnu.edu.in", message)
  
 			# terminating the session
 			s.quit()
